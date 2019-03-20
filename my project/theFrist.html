@@ -1,68 +1,141 @@
 <!DOCTYPE html>
-<html>
-<head> 
+<html lang="en">
+<head>
+<title>the first</title>
+<meta charset="utf-8">
 <style>
-.btn {
-  background-color:pink;
-  border: none;
-  color: white;
+body {
+  background-image: url("bb2.jpg");
+}
+
+/* Style the header */
+.header {
+ color:darkSlateBlue;
+ font-family:courier;
+ text-align:center;
+ font-size:100%;
+ font-style: oblique;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
   padding: 14px 16px;
-  font-size: 16px;
-  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 40%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer {
+  padding: 17px;
+  text-align: center;
+}
+.p1{
+  font-size:135%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 </style>
-<body background="bb2.jpg"> 
-<title>Goes The Garden Snail</title>
-<h1 style="color:darkSlateBlue; font-family:courier; text-align:center;"> Goes The Garden Snail </h1>
-<hr>
-<img src="10-fruits-and-vegetables.jpg"  width="1500" height="200">
-<style>
-    .indent-1 {float: left;}
-    .indent-1 section {width: 40%; float: left;}
-</style>
-<section class="indent-1">
-    <!-- Section 1 --> 
-    <section>
-        <div style="font-size:230%;color:indigo;" ><em> here's some pages to help you:</em></div>
-        <div style="font-size:200%;font-family:courier; "><a href="thesacend.html"  target="_blank" ><button class="btn">Workout?</button></a></div>
-        <br>
-        <br>
-        <div style="font-size:200%;font-family:courier; "><a href="theTheaed1.html"  target="_blank" ><button class="btn">Recipes?</button></a></div>
-
-    </section>
-   <!-- Section 2 -->
-    <section>
-        <br>
-        <br>
-        <div style="font-size:150%;  text-align:center;"><i>life staye is imprtant</i></div>
-        <br>
-        <div style="font-size:140%;"><i>Creating a healthy lifestyle doesn't have to mean drastic changes.<br> Making small changes in how you live may seem like a slow process, and it is.<br> You may adapt to change better when it doesn't require you to overhaul your entire life.<br> Just pick one thing and work on that one thing every day, letting the rest of your life and habits stay the same.<br> You may be surprised that those small changes really can make a difference</i></div>
-    </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr>
- <footer style="text-align:center;">
-       this website was made by information students: Hadeel Almadabghi/ 437001397 and Fatimah Alyami/437004159 all copyright belong to there owners we do not own anything but the disign
-       </footer>
-</section>
-</body>
 </head>
+<body>
+
+<div class="header">
+  <h1> Goes The Garden Snail</h1>
+  <hr>
+  <img src="10-fruits-and-vegetables.jpg"  width="1475" height="130">
+</div>
+
+<div class="topnav">
+  <a href="thesacend.html">Workout?</a>
+  <a href="theTheaed1.html">Recipes?</a>
+</div>
+<div class="row">
+  <div class="column side">
+    <h2>life staye is imprtant</h2>
+  <div class="p1">
+    <p>Creating a healthy lifestyle doesn't have to mean drastic changes.<br> Making small changes in how you live may seem like a slow process, and it is.<br> You may adapt to change better when it doesn't require you to overhaul your entire life.<br> Just pick one thing and work on that one thing every day, letting the rest of your life and habits stay the same.<br> You may be surprised that those small changes really can make a difference.</p>
+  </div>
+ </div> 
+  <div class="column middle">
+    <h2>Try restoring your energy with yoga!</h2>
+    <img style="float: right;" src="yoga.jpg" > 
+ <div class="p1">
+    <p>Why do yoga?
+The short answer is that yoga makes you feel better. Practicing the postures, breathing exercises and meditation makes you healthier in body, mind, and spirit. Yoga lets you tune in, chill out, shape up all at the same time.
+
+For starters, yoga is good for what ails you. Specifically, research shows that yoga helps manage or control anxiety, arthritis, asthma, back pain, blood pressure, carpal tunnel syndrome, chronic fatigue, depression, diabetes, epilepsy, headaches, heart disease, multiple sclerosis, stress and other conditions and diseases.</p>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="footer">
+  <p> this website was made by information students: Hadeel Almadabghi/ 437001397 and Fatimah Alyami/437004159 all copyright belong to there owners we do not own anything but the disign.</p>
+</div>
+</body>
 </html>
